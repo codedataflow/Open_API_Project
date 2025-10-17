@@ -1,0 +1,55 @@
+/*======================================================*/
+/* PROJECTS SECTION */
+/*======================================================*/
+#Projects {
+  margin: 1.25rem 0.625rem;
+  padding: 0.625rem;
+}
+
+#Projects h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #030345bf;
+  margin-bottom: 1rem;
+}
+
+#Projects ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Each project card */
+#Projects li {
+  background-color: #fff;
+  border: 0.063rem solid #e6e6e6;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+#Projects li:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+
+/* Link styling */
+#Projects a {
+  color: darkslateblue;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+#Projects a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
