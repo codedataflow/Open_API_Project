@@ -13,15 +13,19 @@
         <select id="breedSelect">
             <option value="-1">Select a breed...</option>
         </select>
-        <div id="dogInfo">
-            <h2 id="breedName">ss</h2>
-            <img id="breedImage" alt="Dog Image">
-            <p><strong>Group:</strong> <span id="breedGroup"></span></p>
-            <p><strong>For:</strong> <span id="breedFor"></span></p>
-            <p><strong>Temperament:</strong> <span id="breedTemperament"></span></p>
-            <p><strong>Life Span:</strong> <span id="breedLifeSpan"></span></p>
-            <p><strong>Weight:</strong> <span id="breedWeight"></span></p>
-            <p><strong>Height:</strong> <span id="breedHeight"></span></p>
+        <div id="breedInfo">
+            <h2 id="breedName">Breed Name Placeholder</h2>
+            <img id="breedImage" alt="Dog Image"><br>
+            <button onclick="getBreedDetails()">Get Details</button>
+            <div id="breedInfoDetailed">
+                <p><strong>Name:</strong> <span id="breedNameDetailed"></span></p>
+                <p><strong>Group:</strong> <span id="breedGroup"></span></p>
+                <p><strong>For:</strong> <span id="breedFor"></span></p>
+                <p><strong>Temperament:</strong> <span id="breedTemperament"></span></p>
+                <p><strong>Life Span:</strong> <span id="breedLifeSpan"></span></p>
+                <p><strong>Weight:</strong> <span id="breedWeight"></span></p>
+                <p><strong>Height:</strong> <span id="breedHeight"></span></p>
+            </div>
         </div>
         <div id="messages">
             <p><span id="statusMessage"></span></p>

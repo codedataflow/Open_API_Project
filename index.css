@@ -5,13 +5,13 @@ body {
     padding: 20px;
 }
 
-h1 {
+h1, h2 {
     color: #333;
 }
 
 .container {
     background: white;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 12px;
@@ -26,16 +26,30 @@ select {
 }
 
 img {
-    width: 300px;
+    width: 360px;
     border-radius: 10px;
     margin-top: 10px;
 }
 
-#dogInfo {
+#breedInfo {
     margin-top: 20px;
 }
 
 p {
     text-align: left;
     margin: 10px 40px;
+}
+
+button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;  
 }
