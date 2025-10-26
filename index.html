@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Natalia's Sibalova portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Explorer</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>  
 </head>
 <body>
+    <h1>🐾 Dog Breed Explorer</h1>
+    <div class="container">
+        <label for="breedSelect">Choose a Breed:</label>
+        <select id="breedSelect">
+            <option value="-1">Select a breed...</option>
+        </select>
+        <div id="breedInfo">
+            <h2 id="breedName">Breed Name Placeholder</h2>
+            <img id="breedImage" alt="Dog Image"><br>
+            <button onclick="getBreedDetails()">Get Details</button>
+            <div id="breedInfoDetailed">
+                <p><strong>Name:</strong> <span id="breedNameDetailed"></span></p>
+                <p><strong>Group:</strong> <span id="breedGroup"></span></p>
+                <p><strong>For:</strong> <span id="breedFor"></span></p>
+                <p><strong>Temperament:</strong> <span id="breedTemperament"></span></p>
+                <p><strong>Life Span:</strong> <span id="breedLifeSpan"></span></p>
+                <p><strong>Weight:</strong> <span id="breedWeight"></span></p>
+                <p><strong>Height:</strong> <span id="breedHeight"></span></p>
+            </div>
+        </div>
+        <div id="messages">
+            <p><span id="statusMessage"></span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>  
 </body>
 </html>
